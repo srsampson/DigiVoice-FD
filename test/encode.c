@@ -4,7 +4,7 @@
 #include <string.h>
 #include <errno.h>
 
-#include <digivoice.h>
+#include <codec.h>
 #include <c3file.h>
 
 int main(int argc, char **argv) {

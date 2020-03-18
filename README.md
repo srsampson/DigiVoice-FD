@@ -45,7 +45,8 @@ A Pitch of 0 means it is an unvoiced frame
 ```
 int codec_create(void);
 ```
-Returns 0 on success, -1 if the Sinusoidal process init fails, and -2 if the Non Linear Pitch (NLP) init fails
+Returns 0 on success, -1 if the encode_harmonics init process fails, -2 if the decode_harmonics
+process fails, and -3 if the encode_pitch process fails.
 ```
 void codec_destroy(void);
 ```

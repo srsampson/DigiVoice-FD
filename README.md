@@ -35,7 +35,7 @@ This library is being used where compatability with the original is not the prim
 #### Binary Array Format
 ```
 Index 1 VQ Magnitude index 1     (9 bits)
-Index 2 VQ Magnitide index 2     (9 bits)
+Index 2 VQ Magnitude index 2     (9 bits)
 Index 3 Quantized energy         (4 bits)
 Index 4 Quantized pitch          (6 bits)
 
